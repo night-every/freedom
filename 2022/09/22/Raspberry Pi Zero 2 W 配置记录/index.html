@@ -449,7 +449,7 @@
 <p>    然后保存离开</p>
 <ol start="4">
 <li><p>执行</p>
-<p><code>bash</code><br>ln -s <br> &#x2F;usr&#x2F;lib&#x2F;systemd&#x2F;system&#x2F;wpa_supplicant@.service <br> root&#x2F;etc&#x2F;systemd&#x2F;system&#x2F;multi-user.target.wants&#x2F;<a href="mailto:&#119;&#112;&#97;&#x5f;&#x73;&#117;&#112;&#112;&#108;&#x69;&#x63;&#x61;&#x6e;&#x74;&#64;&#119;&#x6c;&#x61;&#110;&#x30;&#46;&#115;&#101;&#114;&#118;&#x69;&#x63;&#101;">&#119;&#112;&#97;&#x5f;&#x73;&#117;&#112;&#112;&#108;&#x69;&#x63;&#x61;&#x6e;&#x74;&#64;&#119;&#x6c;&#x61;&#110;&#x30;&#46;&#115;&#101;&#114;&#118;&#x69;&#x63;&#101;</a></p>
+<p><code>bash</code><br>ln -s <br> &#x2F;usr&#x2F;lib&#x2F;systemd&#x2F;system&#x2F;wpa_supplicant@.service <br> root&#x2F;etc&#x2F;systemd&#x2F;system&#x2F;multi-user.target.wants&#x2F;<a href="mailto:&#x77;&#112;&#x61;&#x5f;&#115;&#117;&#112;&#x70;&#x6c;&#105;&#99;&#97;&#110;&#116;&#64;&#119;&#x6c;&#97;&#110;&#x30;&#x2e;&#115;&#101;&#x72;&#118;&#x69;&#99;&#x65;">&#x77;&#112;&#x61;&#x5f;&#115;&#117;&#112;&#x70;&#x6c;&#105;&#99;&#97;&#110;&#116;&#64;&#119;&#x6c;&#97;&#110;&#x30;&#x2e;&#115;&#101;&#x72;&#118;&#x69;&#99;&#x65;</a></p>
 <figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs mipsasm">   <br>   <br>   然后在 <span class="hljs-keyword">boot </span>文件夹下创建 ssh 文件<br>   <br><br><span class="hljs-number">5</span>. ```<span class="hljs-keyword">bash</span><br><span class="hljs-keyword"></span>   cd <span class="hljs-keyword">boot </span>&amp;&amp; touch ssh<br></code></pre></td></tr></table></figure>
 
 <p>最后卸载挂载点</p>
@@ -480,7 +480,7 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">ssh 用户@内网ip -p 22<br></code></pre></td></tr></table></figure></li>
 </ol>
 <blockquote>
-<p>内网ip视每个人情况而定，例如我的是192.168.0.128<br>那么我需要执行: ssh <a href="mailto:&#x61;&#108;&#97;&#114;&#x6d;&#x40;&#x31;&#x39;&#x32;&#x2e;&#49;&#54;&#x38;&#x2e;&#x30;&#46;&#49;&#x32;&#56;">&#x61;&#108;&#97;&#114;&#x6d;&#x40;&#x31;&#x39;&#x32;&#x2e;&#49;&#54;&#x38;&#x2e;&#x30;&#46;&#49;&#x32;&#56;</a> -p 22    </p>
+<p>内网ip视每个人情况而定，例如我的是192.168.0.128<br>那么我需要执行: ssh <a href="mailto:&#x61;&#108;&#x61;&#x72;&#109;&#64;&#x31;&#x39;&#50;&#46;&#49;&#54;&#x38;&#x2e;&#48;&#46;&#49;&#x32;&#x38;">&#x61;&#108;&#x61;&#x72;&#109;&#64;&#x31;&#x39;&#50;&#46;&#49;&#54;&#x38;&#x2e;&#48;&#46;&#49;&#x32;&#x38;</a> -p 22    </p>
 <p>初始用户有两个，分别是alarm和root。alarm的密码是alarm, root的密码是root</p>
 </blockquote>
 <p>登陆成功后会显示一下内容：</p>
