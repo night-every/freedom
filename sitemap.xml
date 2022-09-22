@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://night-every.github.io/freedom/2022/09/22/Raspberry%20Pi%20Zero%202%20W%20%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95/</loc>
+    
+    <lastmod>2022-09-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://night-every.github.io/freedom/2022/07/27/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E9%80%89%E6%8B%A9%E4%BA%86Gentoo%20Linux/</loc>
     
     <lastmod>2022-07-28</lastmod>
@@ -22,7 +31,7 @@
 
   <url>
     <loc>https://night-every.github.io/freedom</loc>
-    <lastmod>2022-09-12</lastmod>
+    <lastmod>2022-09-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -30,14 +39,28 @@
   
   <url>
     <loc>https://night-every.github.io/freedom/tags/Linux/</loc>
-    <lastmod>2022-09-12</lastmod>
+    <lastmod>2022-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://night-every.github.io/freedom/tags/Arch-Linux/</loc>
+    <lastmod>2022-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://night-every.github.io/freedom/tags/Arm/</loc>
+    <lastmod>2022-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://night-every.github.io/freedom/tags/Gentoo-Linux/</loc>
-    <lastmod>2022-09-12</lastmod>
+    <lastmod>2022-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -46,14 +69,28 @@
   
   <url>
     <loc>https://night-every.github.io/freedom/categories/Linux/</loc>
-    <lastmod>2022-09-12</lastmod>
+    <lastmod>2022-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://night-every.github.io/freedom/categories/Arch-Linux/</loc>
+    <lastmod>2022-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://night-every.github.io/freedom/categories/Gentoo-Linux/</loc>
-    <lastmod>2022-09-12</lastmod>
+    <lastmod>2022-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://night-every.github.io/freedom/categories/Arm/</loc>
+    <lastmod>2022-09-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
